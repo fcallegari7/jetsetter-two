@@ -1,7 +1,7 @@
 import { observable, computed, action } from "mobx";
 import Item from "./ItemModel";
 
-export default class ItemStore {
+export default class ItemList {
   @observable items = [];
   @observable unpackedItemsFilter = "";
   @observable packedItemsFilter = "";
