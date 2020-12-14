@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Item = ({ item }) => {
   return (
@@ -7,7 +7,7 @@ const Item = ({ item }) => {
         <input
           type="checkbox"
           checked={item.packed}
-          onChange={() => {}}
+          onChange={item.toggle}
           id={item.id}
         />
         {item.value}

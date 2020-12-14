@@ -11,7 +11,7 @@ import ItemList from "./store/ItemList";
 const itemList = new ItemList();
 
 ReactDOM.render(
-  <Provider>
+  <Provider itemList={itemList}>
     <Application />
   </Provider>,
   document.getElementById("root")
